@@ -1,6 +1,6 @@
 [package]
 name = "sqld"
-version = "0.18.1"
+version = "0.18.2"
 edition = "2021"
 default-run = "sqld"
 
@@ -80,5 +80,3 @@ vergen = { version = "8", features = ["build", "git", "gitcl"] }
 [features]
 unix-excl-vfs = ["sqld-libsql-bindings/unix-excl-vfs"]
 debug-tools = ["console-subscriber", "rusqlite/trace", "tokio/tracing"]
-
-
